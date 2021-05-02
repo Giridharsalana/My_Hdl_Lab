@@ -5,7 +5,7 @@ RUN sudo apt-get install fish -y && \
     sudo apt install python3 && \
     sudo apt install python2
 
-RUN [ -f requirements.txt ] && pip3 install -r requirements.txt && pip2 install -r requirements.txt 
+#RUN [ -f requirements.txt ] && pip3 install -r requirements.txt && pip2 install -r requirements.txt 
 
 RUN sudo chsh -s /usr/bin/fish
 

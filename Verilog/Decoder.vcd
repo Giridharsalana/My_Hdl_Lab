@@ -1,0 +1,63 @@
+$date
+	Wed Oct 12 17:35:26 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Decoder_Tb $end
+$scope module Decoder_Dut $end
+$var wire 4 ! In [3:0] $end
+$var reg 16 " Y [0:15] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 "
+b1 !
+$end
+#5
+b10 "
+b10 !
+#10
+b100 "
+b11 !
+#15
+b1000 "
+b100 !
+#20
+b10000 "
+b101 !
+#25
+b100000 "
+b110 !
+#30
+b1000000 "
+b111 !
+#35
+b10000000 "
+b1000 !
+#40
+b100000000 "
+b1001 !
+#45
+b1000000000 "
+b1010 !
+#50
+b10000000000 "
+b1011 !
+#55
+b100000000000 "
+b1100 !
+#60
+b1000000000000 "
+b1101 !
+#65
+b10000000000000 "
+b1110 !
+#70
+b100000000000000 "
+b1111 !

@@ -4,7 +4,7 @@ module Decoder_Tb;
 
 	Decoder Decoder_Dut(X,In);
 	initial begin
-		In = 4'b0001;
+		#0 In = 4'b0001;
 		#5 In = 4'b0010;
 		#5 In = 4'b0011;
 		#5 In = 4'b0100;
@@ -22,7 +22,6 @@ module Decoder_Tb;
 	end
 	initial
 	begin
-	// $monitor("Y = %b ,#5 In = %b%b; C = %b; D = %b;"X,A,B,C,D);
 	$dumpfile("Decoder.vcd");	
 	$dumpvars(0,Decoder_Dut);
 	end

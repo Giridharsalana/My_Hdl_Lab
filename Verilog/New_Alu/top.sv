@@ -67,5 +67,5 @@ begin
 
 end
 initial
-$monitor("y_out = %d,carry = %b zero = %b,done= %b,accum= %d,b_reg = %b,a_in =%b\n",y_out,carry,zero,done,accum,b_reg,a_in);
+$monitor("y_out = %d,carry = %b zero = %b,done= %b,accum= %b,b_reg = %b,a_in =%b\n",y_out,carry,zero,done,accum,b_reg,a_in);
 endmodule
